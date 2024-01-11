@@ -10,9 +10,9 @@ const Category = () => {
       <h2>Browse The Range</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
       <div className="flex flex-row gap-4">
-        <CategoryCard image={Living} category="Living" />
-        <CategoryCard image={Dining} category="Living" />
-        <CategoryCard image={Bedroom} category="Living" />
+        <CategoryCard key={1} image={Living} category="Living" />
+        <CategoryCard key={2} image={Dining} category="Living" />
+        <CategoryCard key={3} image={Bedroom} category="Living" />
       </div>
     </div>
   )

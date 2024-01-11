@@ -26,7 +26,7 @@ const Nav = () => {
     <div className="xs: hidden sm:hidden md:block lg:block xl:block">
       <ul className="flex flex-row gap-4">
         {navItems.map((navItem) => (
-          <li>
+          <li key={navItem.url}>
             <Link href={navItem.url}>{navItem.label}</Link>
           </li>
         ))}
