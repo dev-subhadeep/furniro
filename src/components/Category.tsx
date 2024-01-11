@@ -1,6 +1,8 @@
 import React from "react"
 import CategoryCard from "./CategoryCard"
 import Living from "@/assets/image 100.png"
+import Dining from "@/assets/image 106.png"
+import Bedroom from "@/assets/image 101.png"
 
 const Category = () => {
   return (
@@ -9,8 +11,8 @@ const Category = () => {
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
       <div className="flex flex-row gap-4">
         <CategoryCard image={Living} category="Living" />
-        <CategoryCard image={Living} category="Living" />
-        <CategoryCard image={Living} category="Living" />
+        <CategoryCard image={Dining} category="Living" />
+        <CategoryCard image={Bedroom} category="Living" />
       </div>
     </div>
   )
