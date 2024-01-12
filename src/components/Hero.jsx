@@ -6,6 +6,7 @@ const Hero = () => {
   return (
     <div>
       <Image src={HeroImage} fill alt="Furniro Hero Image" />
+      <div>Hero Caption</div>
     </div>
   )
 }
